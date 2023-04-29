@@ -1,4 +1,4 @@
-package com.intime.unittesting.business;
+package com.intime.unittesting.unittesting.business;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.anyInt;

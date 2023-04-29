@@ -1,4 +1,4 @@
-package com.intime.unittesting.business;
+package com.intime.unittesting.unittesting.business;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
@@ -18,7 +18,7 @@ import com.intime.unittesting.unittesting.data.SomeDataService;
 public  class SomeBusinessMockTest {
 
 
-    @InjectMocks // will call constructor or setter method
+    @InjectMocks // will call setter method for mock = business.setSomeDataService(dataServiceMock);
     SomeBusinessImpl business = new SomeBusinessImpl();
 
 
